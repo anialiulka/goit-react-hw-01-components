@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  align-items: center;
+
+  padding: 30px 35px;
+  background-color: #ead5dc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  margin-right: 140px;
+  background-color: #eee3e7;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.name {
+  font-size: 50px;
+  font-weight: 700;
+  color: #7b6a6c;
+}
+
+.item span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 70px;
+}
